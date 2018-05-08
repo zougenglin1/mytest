@@ -61,6 +61,7 @@ public class HibernateTest {
 		Customer customer = session.load(Customer.class, 1);
 		
 		System.out.println(customer.getName());
+		System.out.println(customer.getName());
 		//提交事务
 		transaction.commit();
 	}
